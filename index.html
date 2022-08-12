@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>FPS | TELAS</title>
+  </head>
+
+  <body>
+    <h1>FPS | TELAS</h1>
+    <div>
+      
+      <img src="fpsicon.png" alt="" width="200" height="200">
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Psicologia</button>
+      <div class="dropdown-content">
+        <a href="#" onclick="openNav('BL. B1 – Sala 11', 'Andrea Sena (011)')">1° Periodo</a>
+        <a href="#" onclick="openNav('BL. B1 – Sala 19 ','Rafael Aureliano (011)')">2° Periodo</a>
+        <a href="#" onclick="openNav('BL. B1 – Sala 19 ','Rafael Aureliano (012)')">3° Periodo</a>
+        <a href="#" onclick="openNav('BL. B1 – Sala 19 ','Rafael Aureliano (013)')">4°Periodo</a>
+        <a href="#" onclick="openNav('BL. B1 – Sala 19 ','Rafael Aureliano (014)')">5° Periodo</a>
+        <a href="#" onclick="openNav('BL. B1 – Sala 19 ','Rafael Aureliano (015)')">6° Periodo</a>
+      </div>
+      
+    </div>  
+    <div class="dropdown">
+      <button class="dropbtn">Medicina</button>
+      <div class="dropdown-content">
+        <a href="#" onclick="openNav('BL. B1 – Sala 19 ','Rafael Aureliano (016)')">1° Periodo</a>
+        <a href="#" onclick="openNav('BL. B1 – Sala 19 ','Rafael Aureliano (017)')">2° Periodo</a>
+        <a href="#" onclick="openNav('BL. B1 – Sala 19 ','Rafael Aureliano (018)')">3° Periodo</a>
+        <a href="#" onclick="openNav('BL. B1 – Sala 19 ','Rafael Aureliano (019)')">4°Periodo</a>
+        <a href="#" onclick="openNav('BL. B1 – Sala 19 ','Rafael Aureliano (020)')">5° Periodo</a>
+        <a href="#" onclick="openNav('BL. B1 – Sala 19 ','Rafael Aureliano (021)')">6° Periodo</a>
+      </div>
+      
+    </div>  
+<!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#" >FPS - Informações</a>
+    <a id='prof' href="#">Professora: fulania sicrana</a>
+    <a id="sala" href="#">Sala: A30</a>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">open</span>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
